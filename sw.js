@@ -1,7 +1,7 @@
 // Newburgh Warren Well Logger — Service Worker
 // Caches all app assets for fully offline use
 
-const CACHE_NAME = 'nw-well-logger-v3';
+const CACHE_NAME = 'nw-well-logger-v4';
 const ASSETS = [
   '/',
   '/index.html',
