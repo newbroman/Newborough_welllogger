@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link rel="manifest" href="/manifest.json">
+<link rel="manifest" href="manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Well Logger">
 <meta name="theme-color" content="#ffffff">
-<link rel="apple-touch-icon" href="/icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Newburgh Warren · Well Logger</title>
 <!-- 100% OFFLINE — no external dependencies whatsoever -->
@@ -1460,7 +1460,7 @@ updateCount();
 </script>
 
 <script>
-if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('/sw.js').then(r=>console.log('SW:',r.scope)).catch(e=>console.log('SW err:',e));});}
+if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').then(r=>console.log('SW:',r.scope)).catch(e=>console.log('SW err:',e));});}
 let _installPrompt=null;
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();_installPrompt=e;const b=document.getElementById('installBtn');if(b)b.style.display='block';});
 function installPWA(){if(!_installPrompt)return;_installPrompt.prompt();_installPrompt.userChoice.then(r=>{if(r.outcome==='accepted')showFlash('App installed ✓');_installPrompt=null;const b=document.getElementById('installBtn');if(b)b.style.display='none';});}
