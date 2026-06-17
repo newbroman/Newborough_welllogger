@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>NEW WELLS</name>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-62AF44-normal">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-62AF44-highlight">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-62AF44">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-62AF44-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-62AF44-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>f4</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3755319,53.1466452,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>f2</name>
+      <description>241135	363595 Installed by WMC 32mm OD pipe. Monitored from 1/8/2015</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3764546,53.1463492,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>f1</name>
+      <description><![CDATA[241338	363744 installed by WMC 32mm OD pipe<br>Monitored from 1/8/15]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3738743,53.1472774,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>f3</name>
+      <description>nstalled by WMC 32mm OD pipe. Monitored from 1/8/2015</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3772378,53.1452955,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lis 1</name>
+      <description>241406	363720 Installed 30/11/17 32mm OD pipe</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3728336,53.1470313,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nw8b</name>
+      <description>SH 41272 63487 Monitored from 1/7/15</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3745448,53.14515,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Petalwort west</name>
+      <description><![CDATA[242056	363286<br>Installed 31/8/19 32mm OD pipe as part of Petalwort monitoring project]]></description>
+      <styleUrl>#icon-503-62AF44</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3627715,53.143258,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Petalwort East</name>
+      <description><![CDATA[242739	362823<br>Installed 31/8/19 32mm OD pipe as part of Petalwort monitoring project]]></description>
+      <styleUrl>#icon-503-62AF44</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3524504,53.1393064,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>petal wort dry forest slack</name>
+      <description><![CDATA[249651	63372<br>Installed 31/8/19 32mm OD pipe as part of Petalwort monitoring project]]></description>
+      <styleUrl>#icon-503-62AF44</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3839006,53.1436436,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>petal wort 1</name>
+      <description>41241 63295 Installed 31/8/19 32mm OD pipe as part of Petalwort monitoring project</description>
+      <styleUrl>#icon-503-62AF44</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3750652,53.1430915,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>petalwort 2</name>
+      <description>petal wort 2 sh 4236164593 /42303 64558 nstalled 31/8/19 32mm OD pipe as part of Petalwort monitoring project</description>
+      <styleUrl>#icon-503-62AF44</styleUrl>
+      <Point>
+        <coordinates>
+          -4.3589814,53.1550878,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
